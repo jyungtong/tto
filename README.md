@@ -29,7 +29,7 @@ npm run start
 
 ### Note
 
-There are some commented code in `index.js`, try to uncomment each to run against real API.
+There are some commented code in `src/index.js`, try to uncomment each to run against real API.
 
 ## Test
 
@@ -50,11 +50,15 @@ await processStatistics()
 
 ![process all webstats](/screenshots/process-all-webstats.png?raw=true "Process All Webstats")
 
+---
+
 ```
 await processStatistics(new Date(Date.UTC(2019, 3, 5)), new Date(Date.UTC(2019, 3, 12)))
 ```
 
 ![process start end date range webstats](/screenshots/process-start-end-date-range-webstats.png?raw=true "Process All Webstats")
+
+---
 
 ```
 await processStatistics(new Date(Date.UTC(2019, 3, 14)));
